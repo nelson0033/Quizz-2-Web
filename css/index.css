@@ -1,0 +1,65 @@
+body{
+    text-align: center;
+    display: flex;
+    height: 100vh;
+    margin: 0;
+}
+
+.div1, .div2{
+    flex: 1;
+    width: 50%;
+    height: 100%;
+    border: solid 4px black;
+    align-items: center;
+}
+.div1{
+    border-right: 0px;
+}
+
+.div4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contenedor_resultados{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+table{
+    border-collapse: collapse;
+    border-top: 50px;
+    border-radius: 8px;
+}
+
+h3{
+    display: contents;
+}
+
+button{
+    background-color: green;
+    border-radius: 8px;
+    color: white;
+}
+
+th{
+    background-color: black;
+    color: white;
+    align-items: center;
+    padding-right: 30px;
+    height: 40px;
+}
+
+tr{
+    height: 50px;
+    background-color: cadetblue;
+    border: solid 2px black;
+}
+
+td{
+    padding-right: 50px;
+}
+

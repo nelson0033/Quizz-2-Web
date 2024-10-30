@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizz 2</title>
+    <style>
+        @import url(../css/index.css);
+    </style>
+</head>
+<body>
+    
+    <div class="div1">
+        <h1>Lista Pokémon</h1>
+        <div class="div3">
+            <h3> Cantidad de Resultados: </h3>
+            <input id="input_buscar" type="number">
+            <button id="boton_buscar" onclick="buscarResultados()">Buscar</button>
+            <div id="contenedor_resultados">
+
+            </div>
+        </div>
+    </div>
+
+    <div class="div2">
+        <h1>Detalle Pokémon</h1>
+        <div class="div4">
+            <table>
+                <tr class="encabezado">
+                    <th>Propiedad</th>
+                    <th>Valor</th>
+                </tr>
+                <tr>
+                    <td>Id</td>
+                    <td id="id_pokemon"></td>
+                </tr>
+                <tr>
+                    <td>Nombre</td>
+                    <td id="nombre_pokemon"></td>
+                </tr>
+                <tr>
+                    <td>Peso</td>
+                    <td id="peso_pokemon"></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <script src="../js/index.js"></script>
+</body>
+</html>
